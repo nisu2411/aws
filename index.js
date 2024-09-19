@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.json({ message: "hi from server using code Deploy" });
+  res.json({ message: "hi from server" });
 });
 
 const PORT = 3000;
